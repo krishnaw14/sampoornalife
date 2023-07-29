@@ -9,14 +9,14 @@ export default function ProjectNavbar() {
     <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
         <ul className="flex items-center hidden space-x-8 lg:flex">
-        {/* <Link
+        <Link
           href="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-left"
         >
-          <Image src="/header_logo.png" alt="" layout='fill' className="h-12 lg:h-20" />
-        </Link> */}
+          <Image src="/header_logo.png" alt="" height={75} width={75} className="h-12 lg:h-20" />
+        </Link>
         <li>
             <Link
               href="/#stats"

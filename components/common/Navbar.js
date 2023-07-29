@@ -9,14 +9,14 @@ export default function Navbar() {
     <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
         <ul className="flex items-center hidden space-x-8 lg:flex">
-        {/* <Link
+        <Link
           href="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-left"
         >
-          <Image src="/logo.png" height={1} width={1} alt="" />
-        </Link> */}
+          <Image src="/header_logo.png" height={75} width={75} alt="" />
+        </Link>
         <li>
             <a
               href="#stats"
