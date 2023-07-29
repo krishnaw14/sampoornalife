@@ -5,3 +5,9 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  images: {
+    domains: ['tuk-cdn.s3.amazonaws.com'],
+  },
+};

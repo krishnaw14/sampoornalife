@@ -6,17 +6,17 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
-        <ul class="flex items-center hidden space-x-8 lg:flex">
-        <Link
+    <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
+        <ul className="flex items-center hidden space-x-8 lg:flex">
+        {/* <Link
           href="/"
           aria-label="Company"
           title="Company"
-          class="inline-flex items-left"
+          className="inline-flex items-left"
         >
-          <Image src="/header_logo.png" layout='fill' alt="" className="h-12 lg:h-20" />
-        </Link>
+          <Image src="/logo.png" height={1} width={1} alt="" />
+        </Link> */}
         <li>
             <a
               href="#stats"
@@ -32,7 +32,7 @@ export default function Navbar() {
               href="#project"
               aria-label="Project"
               title="Project"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Projects
             </a>
@@ -44,7 +44,7 @@ export default function Navbar() {
               href="#team"
               aria-label="Our Team"
               title="Our Team"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Our Team
             </a>
@@ -54,7 +54,7 @@ export default function Navbar() {
               href="#about"
               aria-label="About Us"
               title="About Us"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About Us
             </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
               href="#donate"
               aria-label="Donate"
               title="Donate"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
             <button
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 flex flex-row items-center mx-auto justify-center"
@@ -75,11 +75,11 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <div class="lg:hidden">
+        <div className="lg:hidden">
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -98,22 +98,22 @@ export default function Navbar() {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 w-full">
-              <div class="p-5 bg-zinc-100 border rounded shadow-sm">
-                <div class="flex items-center justify-between mb-4">
+            <div className="absolute top-0 left-0 w-full">
+              <div className="p-5 bg-zinc-100 border rounded shadow-sm">
+                <div className="flex items-center justify-between mb-4">
                   <div>
                     <a
                       href="#"
                       aria-label="Company"
                       title="Company"
-                      class="inline-flex items-center"
+                      className="inline-flex items-center"
                     ></a>
                   </div>
                   <div>
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                      className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -126,13 +126,13 @@ export default function Navbar() {
                   </div>
                 </div>
                 <nav>
-                  <ul class="space-y-4">
+                  <ul className="space-y-4">
                     <li>
                       <a
                         href="#"
                         aria-label="Our product"
                         title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Product
                       </a>
@@ -142,7 +142,7 @@ export default function Navbar() {
                         href="#"
                         aria-label="Our product"
                         title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Donate
                       </a>
@@ -152,7 +152,7 @@ export default function Navbar() {
                         href="#"
                         aria-label="Product Our Team"
                         title="Product Our Team"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Our Team
                       </a>
@@ -162,7 +162,7 @@ export default function Navbar() {
                         href="#"
                         aria-label="Statistics"
                         title="Statistics"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Statistics
                       </a>
@@ -172,7 +172,7 @@ export default function Navbar() {
                         href="#"
                         aria-label="About Us"
                         title="About Us"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About Us
                       </a>
