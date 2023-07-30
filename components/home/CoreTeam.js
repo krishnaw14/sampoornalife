@@ -57,7 +57,7 @@ export default function CoreTeam() {
       desc: "Meet Krishna Wadhwani, a bright scholar, graduated from IIT Bombay with a B.Tech in Aerospace Engineering. He has worked as a research engineer at Sony for 2 years and is currently managing and bringing laurels to his family business. With his conversant and dedicated outlook , hard skill aptitude and expertise Krishna is the Technocrat of Sampoorna."
     },
     {
-      avatar: "/team/anmol.jpg",
+      avatar: "/team/anmol.JPG",
       name: "Anmol Parwani",
       position: "",
       desc: "Meet Anmol, a textile designer from NIFT Bhopal. Anmol is a passionate and a dedicated entrepreneur who owns a kids brand Cozy Cribs and raises her own bar year after year. With her enterprising skills and eagerness to take new challenges, Anmol is the the creative member of Sampoorna."
