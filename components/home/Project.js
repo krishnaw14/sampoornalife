@@ -14,8 +14,7 @@ export default function Project() {
       <br />
       <br />
 
-      <div className="flex flex-wrap justify-center gap-8 p-8">
-      <div className="flex flex-wrap justify-center gap-4 p-2">
+      <div className="container flex flex-wrap justify-center gap-8 p-16">
         <Card
           imageUrl="/projects/birthdayproject/1.jpg"
           title="Birthday Project"
@@ -31,8 +30,6 @@ export default function Project() {
           title="Nutrition for All"
           slug="NutritionForAll"
         />
-      </div>
-      <div className="flex justify-center gap-8 p-2">
         <Card
           imageUrl="/projects/sendachildtoschool/1.JPG"
           title="Send a Child to School"
@@ -43,7 +40,6 @@ export default function Project() {
           title="Sponsor a Teacher"
           slug="SponsorATeacher"
         />
-      </div>
     </div>
 
     </div>
