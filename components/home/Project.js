@@ -27,14 +27,14 @@ export default function Project() {
           slug="KhusiyonKaPitara"
         />
         <Card
-          imageUrl="/projects/nutritionforall/1.jpg"
+          imageUrl="/projects/nutritionforall/1.JPG"
           title="Nutrition for All"
           slug="NutritionForAll"
         />
       </div>
       <div className="flex justify-center gap-8 p-2">
         <Card
-          imageUrl="/projects/sendachildtoschool/1.jpg"
+          imageUrl="/projects/sendachildtoschool/1.JPG"
           title="Send a Child to School"
           slug="SendAChildToSchool"
         />
