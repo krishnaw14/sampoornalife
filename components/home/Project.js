@@ -22,7 +22,7 @@ export default function Project() {
           slug="BirthdayProject"
         />
         <Card
-          imageUrl="/projects/khusiyonkapitara/5.jpg"
+          imageUrl="/projects/khusiyonkapitara/1.png"
           title="Khushiyon Ka Pitara"
           slug="KhusiyonKaPitara"
         />
