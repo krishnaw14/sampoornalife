@@ -1,70 +1,34 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/2CzwRCDeyD36RX4Zgpq_v/_buildManifest.js",
-    "static/2CzwRCDeyD36RX4Zgpq_v/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/647-d095c4e1cd27512f.js",
-      "static/chunks/pages/index-1f0b9524d759c18c.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/css/2e189850eca8eda3.css",
-      "static/chunks/pages/_app-5009105528846785.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/pages/_error-a4ba2246ff8fb532.js"
-    ],
-    "/projects/BirthdayProject": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/pages/projects/BirthdayProject-8b6540d12438b240.js"
-    ],
-    "/projects/KhusiyonKaPitara": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/pages/projects/KhusiyonKaPitara-4d528d1c18884578.js"
-    ],
-    "/projects/NutritionForAll": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/pages/projects/NutritionForAll-d55ff56c12092a7a.js"
-    ],
-    "/projects/SendAChildToSchool": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/pages/projects/SendAChildToSchool-c6fbb5505a9268eb.js"
-    ],
-    "/projects/SponsorATeacher": [
-      "static/chunks/webpack-9b312e20a4e32339.js",
-      "static/chunks/framework-4556c45dd113b893.js",
-      "static/chunks/main-18053c3f67c4d467.js",
-      "static/chunks/1-bd1305802266777a.js",
-      "static/chunks/pages/projects/SponsorATeacher-e3d482325d323d62.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []

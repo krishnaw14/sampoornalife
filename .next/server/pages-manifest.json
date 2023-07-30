@@ -1,13 +1,6 @@
 {
-  "/": "pages/index.html",
-  "/_error": "pages/_error.js",
-  "/projects/KhusiyonKaPitara": "pages/projects/KhusiyonKaPitara.html",
-  "/api": "pages/api.js",
   "/_app": "pages/_app.js",
-  "/projects/BirthdayProject": "pages/projects/BirthdayProject.html",
-  "/projects/NutritionForAll": "pages/projects/NutritionForAll.html",
-  "/projects/SponsorATeacher": "pages/projects/SponsorATeacher.html",
-  "/projects/SendAChildToSchool": "pages/projects/SendAChildToSchool.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
