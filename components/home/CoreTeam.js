@@ -20,12 +20,12 @@ export default function CoreTeam() {
   ];
 
   const people = [
-    // {
-    //   avatar: "/team/x.png",
-    //   name: "Rishi Shrishrimal",
-    //   position: "",
-    //   desc: "Meet Rishi, the backbone of Sampoorna. A catalyst inspiring people and igniting a larger spark within all of us. Rishi, is currently in the University of Toronto pursuing Finance and is a bright alumnus of Doon School, Dehradun. He has been the recipient of the International Scholar award- Rotman commerce and Dean list scholar recipient. A Sportaholic and a globetrotter, Rishi does it all. With his Sharp and Snappy Vantage point, he is the Think Tank of Sampoorna."
-    // },
+    {
+      avatar: "/team/rishi.jpg",
+      name: "Rishi Shrishrimal",
+      position: "",
+      desc: "Meet Rishi, the backbone of Sampoorna. A catalyst inspiring people and igniting a larger spark within all of us. Rishi, is currently in the University of Toronto pursuing Finance and is a bright alumnus of Doon School, Dehradun. He has been the recipient of the International Scholar award- Rotman commerce and Dean list scholar recipient. A Sportaholic and a globetrotter, Rishi does it all. With his Sharp and Snappy Vantage point, he is the Think Tank of Sampoorna."
+    },
     {
       avatar: "/team/sarita.png",
       name: "Sarita Golechha",
