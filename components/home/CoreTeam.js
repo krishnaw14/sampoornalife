@@ -46,7 +46,7 @@ export default function CoreTeam() {
     },
     {
       avatar: "/team/neelima.png",
-      name: "Neelima Parekh",
+      name: "Neelima Parakh",
       position: "",
       desc: "Meet Neelima, A homemaker finding beauty in the humblest things. She pours all her love for Sampoorna and works for the day to day functioning of the foundation. She makes us feel hopeful every moment of the day with her constant and extraordinary efforts. With her gentle Midas touch and strong continual support she is an integral part of our Operations team."
     },
@@ -58,7 +58,7 @@ export default function CoreTeam() {
     },
     {
       avatar: "/team/mehak.png",
-      name: "Mehak Parekh",
+      name: "Mehak Parakh",
       position: "",
       desc: "Meet Mehak."
     },
