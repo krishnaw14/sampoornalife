@@ -33,7 +33,7 @@ export default function CoreTeam() {
       desc: "Meet Sarita, a captivating woman who effortlessly juggles the roles of both a skilled artist and a dedicated home maker. Sarita’s unwavering dedication to both her family and her artistic pursuits. With her passion and resourcefulness, Sarita is the creative member of Sampoorna."
     },
     {
-      avatar: "/team/priya1.jpg",
+      avatar: "/team/priya.png",
       name: "Priya Sabhlok",
       position: "",
       desc: "Meet Priya Sabhlok, A qualified professional with a total of 15 years of experience as an academician (teaching MBA students), a corporate and an artist. She is a  Certified Zentangle Teacher from US indulged in Meditative and mindful drawing since last 6 years.  With her Cognition, effective communication and relationship management skills, Priya is the Brain trust of Sampoorna."
@@ -51,10 +51,34 @@ export default function CoreTeam() {
       desc: "Meet Neelima, A homemaker finding beauty in the humblest things. She pours all her love for Sampoorna and works for the day to day functioning of the foundation. She makes us feel hopeful every moment of the day with her constant and extraordinary efforts. With her gentle Midas touch and strong continual support she is an integral part of our Operations team."
     },
     {
-      avatar: "/team/anmol.JPG",
+      avatar: "/team/anmol.jpg",
       name: "Anmol Parwani",
       position: "",
       desc: "Meet Anmol, a textile designer from NIFT Bhopal. Anmol is a passionate and a dedicated entrepreneur who owns a kids brand Cozy Cribs and raises her own bar year after year. With her enterprising skills and eagerness to take new challenges, Anmol is the the creative member of Sampoorna."
+    },
+    {
+      avatar: "/team/mehak.png",
+      name: "Mehak Parekh",
+      position: "",
+      desc: "Meet Mehak."
+    },
+    {
+      avatar: "/team/ritika.png",
+      name: "Ritika Ramnani",
+      position: "",
+      desc: "Meet Ritika"
+    },
+    {
+      avatar: "/team/shweta.png",
+      name: "Shweta Padia",
+      position: "",
+      desc: "Meet Shweta"
+    },
+    {
+      avatar: "/team/apurva.png",
+      name: "Apurva Rathi",
+      position: "",
+      desc: "Meet Apurva"
     },
     {
       avatar: "/team/krishna.png",

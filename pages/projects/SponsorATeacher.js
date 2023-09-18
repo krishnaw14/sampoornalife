@@ -8,11 +8,14 @@ export default function Project() {
     <>
         <ProjectNavbar />
         <main className="">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-5">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-5 p-4">
                     Sponsor a Teacher
                     <br/>
             </h1>
             <ProjectCarousal imagePath="sponserateacher"/>
+            <div className="container mx-auto flex flex-col items-center p-4">
+            </div>
+
             <div className="container mx-auto flex flex-col items-center">
                 <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col">
                     <p className="lg:w-10/12 text-gray-600 font-normal text-sm sm:text-lg">

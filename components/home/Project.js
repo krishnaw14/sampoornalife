@@ -4,7 +4,7 @@ import Card from '../common/Card';
 export default function Project() {
   return (
     <div
-      className="flex flex-col w-full items-center mt-10 md:mt-14 "
+      className="flex flex-col w-full items-center mt-8 md:mt-8"
       id="project"
     >
       <p className="text-4xl font-bold">Our Projects</p>
@@ -14,7 +14,7 @@ export default function Project() {
       <br />
       <br />
 
-      <div className="container flex flex-wrap justify-center gap-8 p-16">
+      <div className="container flex flex-wrap justify-center gap-4 p-4 column-8">
         <Card
           imageUrl="/projects/birthdayproject/1.jpg"
           title="Birthday Project"
@@ -39,6 +39,11 @@ export default function Project() {
           imageUrl="/projects/sponserateacher/1.jpg"
           title="Sponsor a Teacher"
           slug="SponsorATeacher"
+        />
+        <Card
+          imageUrl="/projects/summerschool/1.jpg"
+          title="Summer School"
+          slug="SummerSchool"
         />
     </div>
 

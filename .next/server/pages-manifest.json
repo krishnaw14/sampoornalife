@@ -1,0 +1,14 @@
+{
+  "/": "pages/index.html",
+  "/projects/BirthdayProject": "pages/projects/BirthdayProject.html",
+  "/_app": "pages/_app.js",
+  "/api": "pages/api.js",
+  "/projects/NutritionForAll": "pages/projects/NutritionForAll.html",
+  "/projects/SendAChildToSchool": "pages/projects/SendAChildToSchool.html",
+  "/projects/SponsorATeacher": "pages/projects/SponsorATeacher.html",
+  "/projects/KhusiyonKaPitara": "pages/projects/KhusiyonKaPitara.html",
+  "/_error": "pages/_error.js",
+  "/projects/SummerSchool": "pages/projects/SummerSchool.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

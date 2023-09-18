@@ -23,23 +23,23 @@ export default function ProjectCarousal({imagePath}) {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation, Keyboard]}
-      className="w-1/2 mb-10 sm:mb-20 p-8"
+      className="w-2/5 mb-10 sm:mb-10"
     >
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <Image
           src={`/projects/${imagePath}/1.jpg`}
           alt=""
-          width={700}
-          height={700}
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          width={500}
+          height={500}
+          className="rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <Image
           src={`/projects/${imagePath}/2.jpg`}
           alt=""
-          width={700}
-          height={700}
+          width={500}
+          height={500}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -47,8 +47,8 @@ export default function ProjectCarousal({imagePath}) {
         <Image
           src={`/projects/${imagePath}/3.jpg`}
           alt=""
-          width={700}
-          height={700}
+          width={500}
+          height={500}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -56,8 +56,8 @@ export default function ProjectCarousal({imagePath}) {
         <Image
           src={`/projects/${imagePath}/4.jpg`}
           alt=""
-          width={700}
-          height={700}
+          width={500}
+          height={500}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
