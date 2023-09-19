@@ -60,31 +60,31 @@ export default function CoreTeam() {
       avatar: "/team/mehak.png",
       name: "Mehak Parakh",
       position: "",
-      desc: "Meet Mehak."
+      desc: "Meet Mehak, a freelance creative director, a dog mom and a tarot card reader. A fashionista who loves to read and carries a tremendous spirit of life. Being a social media enthusiast, Mehak helps with events at Sampoorna and also handles the digital media with us."
     },
     {
       avatar: "/team/ritika.png",
       name: "Ritika Ramnani",
       position: "",
-      desc: "Meet Ritika"
+      desc: "Meet Ritika, an MBA in Finance and an advance diploma holder in Interior and Jewellery designing. Her fondness for painting, art & craft makes her eager to learn new things. Being a mother she has a soft connect with kids and thereby indulges in a magical connection with Sampoorna kids too. She is allied with Sampoorna as a teacher and conducts extra curricular activities."
     },
     {
       avatar: "/team/shweta.png",
-      name: "Shweta Padia",
+      name: "Sweta Padia",
       position: "",
-      desc: "Meet Shweta"
+      desc: "Meet Sweta, a strong believer in exchanging positive energy. A happy homemaker and a mother of 2 young and intelligent boys makes her celebrate every blessing. Being passionate for art and craft, Sweta handles the creative responsibilities of Sampoorna."
     },
     {
       avatar: "/team/apurva.png",
       name: "Apurva Rathi",
       position: "",
-      desc: "Meet Apurva"
+      desc: "Meet Apoorva, a believer in learning, unlearning and relearning. A teacher of Social science by profession in DPS Raipur, she loves the magic of books, music, food and nature. With her intellect and command in language Apoorva teaches our kids the ultimate language skills."
     },
     {
       avatar: "/team/krishna.png",
       name: "Krishna Wadhwani",
       position: "",
-      desc: "Meet Krishna Wadhwani, a bright scholar, graduated from IIT Bombay with a B.Tech in Aerospace Engineering. He has worked as a research engineer at Sony for 2 years and is currently managing and bringing laurels to his family business. With his conversant and dedicated outlook , hard skill aptitude and expertise Krishna is the Technocrat of Sampoorna."
+      desc: "Meet Krishna, a bright scholar, graduated from IIT Bombay with a B.Tech in Aerospace Engineering. He has worked as a research engineer at Sony for 2 years and is currently managing and bringing laurels to his family business. With his conversant and dedicated outlook , hard skill aptitude and expertise Krishna is the Technocrat of Sampoorna."
     },
   ];
   const [selectedPerson, setSelectedPerson] = useState(null);
