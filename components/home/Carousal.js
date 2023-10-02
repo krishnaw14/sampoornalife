@@ -7,7 +7,7 @@ import { Keyboard, Autoplay, Pagination, Navigation } from "swiper";
 export default function Carousal() {
   return (
     <Swiper
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={1}
       loop={true}
       keyboard={{
@@ -22,14 +22,14 @@ export default function Carousal() {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation, Keyboard]}
-      className="w-1/2 mb-10 sm:mb-20 p-2"
+      className="w-11/12 mb-10 sm:mb-20 p-2"
     >
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <Image
           src="/cover/1.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -37,8 +37,8 @@ export default function Carousal() {
         <Image
           src="/cover/2.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -46,8 +46,8 @@ export default function Carousal() {
         <Image
           src="/cover/3.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -55,8 +55,8 @@ export default function Carousal() {
         <Image
           src="/cover/4.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -64,8 +64,8 @@ export default function Carousal() {
         <Image
           src="/cover/5.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -73,8 +73,8 @@ export default function Carousal() {
         <Image
           src="/cover/6.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -82,8 +82,8 @@ export default function Carousal() {
         <Image
           src="/cover/7.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -91,8 +91,8 @@ export default function Carousal() {
         <Image
           src="/cover/8.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -100,8 +100,8 @@ export default function Carousal() {
         <Image
           src="/cover/9.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -109,8 +109,8 @@ export default function Carousal() {
         <Image
           src="/cover/10.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>
@@ -118,8 +118,8 @@ export default function Carousal() {
         <Image
           src="/cover/11.jpg"
           alt=""
-          width={700}
-          height={700}
+          width={900}
+          height={900}
           className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
         />
       </SwiperSlide>

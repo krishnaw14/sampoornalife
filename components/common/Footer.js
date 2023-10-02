@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="mx-auto container pt-20 flex flex-col items-center justify-center">
           <div className="text-black flex flex-col md:items-center f-f-l pt-3 w-full">
             <Image src="/header_logo.png" alt="" height={100} width={100} className="h-12 lg:h-14 w-8/12 sm:w-auto self-center object-contain" />
-            <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
-              <b>Address:</b> C/o G.K. Cars Pvt. Ltd., Gekay Honda, <br/>
-              G.E. Road, Telibandha, Raipur (C.G.) 492001<br/>
+            <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-justify">
+              <b>Address:</b> C/o G.K. Cars Pvt. Ltd., Gekay Honda, 
+              G.E. Road, Telibandha, Raipur (C.G.) 492001<br/><br/>
               <b>Email:</b> mail@sampoorna.life<br/>
               {/* <b>Mobile:</b> +919893343442, +919205772352 */}
             </div>

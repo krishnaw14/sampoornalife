@@ -14,8 +14,8 @@ const Photo = ({ person, onClick }) => {
         alt=""
         className="flex justify-center rounded-lg w-40 h-40 md:w-35 md:h-35 object-cover ring ring-zinc-200"
         onClick={handleClick}
-        height={200}
-        width={200}
+        height={300}
+        width={300}
         />
         <p className="flex justify-center font-medium mt-2 text-lg opacity-75">{person.name}</p>
         <p className="flex justify-center text-zinc-500 text">{person.position}</p>

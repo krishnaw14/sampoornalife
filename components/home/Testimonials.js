@@ -24,7 +24,7 @@ export default function Testimonials() {
                   height={50}
                 />
               </div>
-              <p className="text-base leading-6 text-gray-600 mt-4">
+              <p className="text-base leading-6 text-gray-600 mt-4 text-justify">
               A big congratulations to you guys for doing this. 
               Hoping that Sampoorna reaches and lights up the lives of millions. Always here to help! 
               </p>
@@ -50,7 +50,7 @@ export default function Testimonials() {
                   height={50}
                 />
               </div>
-              <p className="text-base leading-6 text-gray-600 mt-4">
+              <p className="text-base leading-6 text-gray-600 mt-4 text-justify">
               Thank you so much for this grateful experience. I felt great that because of you, our campus could be part of a small act of kindness and generosity. 
               It feels great to be associated with you and the team, looking forward to more such experiences.
              
@@ -77,7 +77,7 @@ export default function Testimonials() {
                   height={50}
                 />
               </div>
-              <p className="text-base leading-6 text-gray-600 mt-4">
+              <p className="text-base leading-6 text-gray-600 mt-4 text-justify">
               Dear Hemangi and Neha, We really appreciate your hard work and enthusiasm toward these social challenges. Keep up the good work!
               </p>
             </div>

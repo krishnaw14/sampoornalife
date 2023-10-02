@@ -10,7 +10,7 @@ export default function Donate() {
         </div>
         <div className="w-10/12 sm:w-8/12 md:w-5/12 lg:w-6/12 flex flex-col justify-center items-center px-4">
           <p className="text-4xl lg:text-5xl font-bold pt-10 md:pt-0">Donate</p>
-          <p className="lg:text-lg 2xl:text-xl py-6 text-center">
+          <p className="lg:text-lg 2xl:text-xl py-6 text-justify">
             Remember that the happiest people are not those getting more, but
             those giving more.
           </p>

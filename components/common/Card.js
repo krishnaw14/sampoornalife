@@ -4,11 +4,9 @@ import Image from 'next/image';
 const Card = ({ imageUrl, title, slug }) => {
   return (
     <Link href={`/projects/${slug}`}>
-      <a className="block w-1/4 bg-white rounded-lg shadow-md hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
+      <a className="p-4 bg-white shadow-lg rounded-lg hover:shadow-lg transform transition-transform duration-300 hover:scale-105">
         <Image className="object-cover w-full h-72 rounded-t-lg" width={400} height={400} src={imageUrl} alt={title} />
-        <div className="p-4">
-          <h2 className="text-xl font-medium text-gray-800">{title}</h2>
-        </div>
+          <h2 className="lg:text-xl sm:text-sm font-medium text-gray-800 p-4">{title}</h2>
       </a>
     </Link>
   );
