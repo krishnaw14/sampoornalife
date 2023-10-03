@@ -23,7 +23,7 @@ export default function ProjectCarousal({imagePath}) {
         disableOnInteraction: false,
       }}
       modules={[Autoplay, Pagination, Navigation, Keyboard]}
-      className="w-2/5 mb-10 sm:mb-10"
+      className="w-11/12 mb-10 sm:mb-20 p-2"
     >
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <Image

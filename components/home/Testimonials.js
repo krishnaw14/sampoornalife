@@ -15,7 +15,7 @@ export default function Testimonials() {
         </div>
         <div className="w-full lg:flex items-center gap-6 mt-10">
           <div className="lg:w-1/3">
-            <div className="bg-white border rounded-md border-gray-50 relative sm:p-10 p-6">
+            <div className="bg-[#d7db8e] border rounded-md border-gray-50 relative sm:p-10 p-6">
               <div>
                 <Image
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg"
@@ -41,7 +41,7 @@ export default function Testimonials() {
             </div>
           </div>
           <div className="lg:w-1/3 lg:mt-0 mt-16">
-            <div className="bg-white border rounded-md border-gray-50 relative sm:p-10 p-6">
+            <div className="bg-[#d7db8e] border rounded-md border-gray-50 relative sm:p-10 p-6">
               <div>
                 <Image
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg"
@@ -68,7 +68,7 @@ export default function Testimonials() {
             </div>
           </div>
           <div className="lg:w-1/3 lg:mt-0 mt-16">
-            <div className="bg-white border rounded-md border-gray-50 relative sm:p-10 p-6">
+            <div className="bg-[#d7db8e] border rounded-md border-gray-50 relative sm:p-10 p-6">
               <div>
                 <Image
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg"

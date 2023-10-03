@@ -10,9 +10,17 @@ export default function Donate() {
         </div>
         <div className="w-10/12 sm:w-8/12 md:w-5/12 lg:w-6/12 flex flex-col justify-center items-center px-4">
           <p className="text-4xl lg:text-5xl font-bold pt-10 md:pt-0">Donate</p>
-          <p className="lg:text-lg 2xl:text-xl py-6 text-justify">
+          <p className="lg:text-lg 2xl:text-xl py-6 text-justify font-normal text-gray-600">
             Remember that the happiest people are not those getting more, but
-            those giving more.
+            those giving more. 
+            
+            Our Bank details are as follows: <br/><br/>
+
+            NAME: Sampoorna Welfare Foundation <br/>
+            Bank: ICICI Bank Limited <br/>
+            A/C Number: 016101019753 <br/>
+            IFSC: ICICI0000161 <br/>
+            Branch: Civil Lines, Raipur <br/>
           </p>
           <Image src="/qr.png" alt="" className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12" width={200} height={200} />
           <a

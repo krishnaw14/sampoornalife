@@ -11,11 +11,11 @@ export default function Stats() {
   return (
     <div id="stats">
       <div className="pb-20">
-        <div className="mx-auto bg-gradient-to-l from-blue-400 to-blue-700 h-96">
+        <div className="mx-auto bg-gradient-to-r from-[#a0ef86] to-[#d7db8e] h-96">
           <div className="mx-auto container w-full flex flex-col justify-center items-center">
             <div className="flex text-center">
               <div className="mt-10">
-                <h2 className="lg:text-6xl md:text-5xl text-4xl font-black text-white px-4">
+                <h2 className="lg:text-6xl md:text-5xl text-4xl font-black text-black px-4">
                   Our Journey so far
                 </h2>
               </div>

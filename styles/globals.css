@@ -9,3 +9,9 @@ html {
   font-family: "Poppins", sans-serif;
   background-color: rgb(244 244 245);
 }
+
+/* global.css */
+body {
+  /* background-color: #d7db8e; */
+  background-color: rgba(215, 219, 142, 0.5);
+}

@@ -7,7 +7,7 @@ export default function About() {
         className="container mx-auto flex flex-col py-12 px-2 w-11/12 sm:w-2/3"
         id="about">
         <p className="text-4xl font-bold text-center">About Us</p>
-        <p className="text-gray-500 text-justify font-normal my-4">
+        <p className="mt-5 sm:mt-10 text-gray-600 font-normal text-justify text-sm sm:text-lg">
         We at Sampoorna conduct after school teaching along with diverse initiatives. Be it Spirituality, Human rights, Dance, Yoga, Art and craft, Movie drive, Life skill coaching, Cleanliness and Kindness drives… we try to accomplish them all. 
         <br />
         The Sampoorna&apos;s promising family is blossoming day by day by adding new students under its umbrella. Our goal not only narrows to teaching after school but also pursuits of “Send a Child to School” Programme. 
