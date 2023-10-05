@@ -25,7 +25,7 @@ export default function Footer() {
                 </a>
               </span>
             </div>
-            <span className="text-base text-color">
+            <span className="text-base text-color text-center">
             Follow us:
             </span>
 
