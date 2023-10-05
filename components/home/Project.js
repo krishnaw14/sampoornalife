@@ -15,20 +15,10 @@ export default function Project() {
       <br />
 
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        <Card
-          imageUrl="/projects/birthdayproject/1.jpg"
-          title="Birthday Project"
-          slug="BirthdayProject"
-        />
-        <Card
-          imageUrl="/projects/khusiyonkapitara/1.png"
-          title="Khushiyon Ka Pitara"
-          slug="KhusiyonKaPitara"
-        />
-        <Card
-          imageUrl="/projects/nutritionforall/1.JPG"
-          title="Nutrition for All"
-          slug="NutritionForAll"
+      <Card
+          imageUrl="/projects/sponserateacher/1.jpg"
+          title="Sponsor a Teacher"
+          slug="SponsorATeacher"
         />
         <Card
           imageUrl="/projects/sendachildtoschool/1.JPG"
@@ -36,14 +26,24 @@ export default function Project() {
           slug="SendAChildToSchool"
         />
         <Card
-          imageUrl="/projects/sponserateacher/1.jpg"
-          title="Sponsor a Teacher"
-          slug="SponsorATeacher"
+          imageUrl="/projects/nutritionforall/1.JPG"
+          title="Nutrition for All"
+          slug="NutritionForAll"
+        />
+        <Card
+          imageUrl="/projects/birthdayproject/1.jpg"
+          title="Birthday Project"
+          slug="BirthdayProject"
         />
         <Card
           imageUrl="/projects/summerschool/1.jpg"
           title="Summer School"
           slug="SummerSchool"
+        />
+        <Card
+          imageUrl="/projects/khusiyonkapitara/1.png"
+          title="Khushiyon Ka Pitara"
+          slug="KhusiyonKaPitara"
         />
     </div>
 

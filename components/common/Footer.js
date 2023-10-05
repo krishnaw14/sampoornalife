@@ -25,6 +25,27 @@ export default function Footer() {
                 </a>
               </span>
             </div>
+            <span className="text-base text-color">
+            Follow us:
+            </span>
+
+            <div className="container mx-auto">
+              <div className="flex justify-center py-2 space-x-8">
+                <a href="https://www.instagram.com/sampoorna_life/" target="_blank" rel="noopener noreferrer">
+                  <img src="/social-icons/instagram.png" alt="Instagram" className="w-8 h-8" />
+                </a>
+                {/* <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                  <img src="/social-icons//facebook-icon.png" alt="Facebook" className="w-8 h-8" />
+                </a> */}
+                <a href="https://www.youtube.com/@SampoornaLifeFoundation" target="_blank" rel="noopener noreferrer">
+                  <img src="/social-icons/youtube.png" alt="YouTube" className="w-8 h-8" />
+                </a>
+              </div>
+            </div>
+
+            <div className="py-12">
+            </div>
+
           </div>
         </div>
       </div>
