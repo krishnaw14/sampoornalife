@@ -33,8 +33,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
   <>
-  <DonateButton />
   <Component {...pageProps} /> 
+  <DonateButton />
   </>
   );
 }

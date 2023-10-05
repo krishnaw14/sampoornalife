@@ -19,7 +19,7 @@ export default function CoreTeam() {
     },
   ];
 
-  const group_1 = [
+  const people = [
     {
       avatar: "/team/aishwarya.png",
       name: "Aishwarya Bothra",
@@ -50,9 +50,6 @@ export default function CoreTeam() {
       position: "",
       desc: "Meet Mehak, a freelance creative director, a dog mom and a tarot card reader. A fashionista who loves to read and carries a tremendous spirit of life. Being a social media enthusiast, Mehak helps with events at Sampoorna and also handles the digital media with us."
     },
-  ];
-
-    const group_2 = [
     {
       avatar: "/team/neelima.png",
       name: "Neelima Parakh",
@@ -98,6 +95,20 @@ export default function CoreTeam() {
   return (
     <div className="flex flex-col w-full items-center my-10 md:my-14 " id="team">
       <p className="text-4xl font-bold">Core Team</p>
+      {/* <div className="w-max-[90vw] w-full md:w-8/12">
+        <div className="flex justify-center">
+          {/* Card 
+          {cofounders.map((person, index) => (
+            <div
+              key={index}
+              className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-56"
+            >
+              <Photo person={person} onClick={handleClickPhoto} />
+            </div>
+          ))}
+          {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
+        </div>
+      </div> */}
 
 <div className="w-max-[90vw] w-full md:w-8/12">
       <div className="flex  justify-center">
@@ -105,32 +116,24 @@ export default function CoreTeam() {
         {cofounders.map((person, index) => (
           <div
             key={index}
-            className="flex flex-col m-2 p-2 py-10 brightness-90 rounded-md w-56"
+            className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-56"
           >
-            <Photo person={person} onClick={handleClickPhoto}/>
-          </div>
-        ))}
-        {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
-      </div>
-
-    </div>
-
-    <div className="w-max-[90vw] w-full md:w-8/12">
-      <div className="flex justify-center">
-        {group_1.map((person, index) => (
-          <div key={index} className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-38">
-            <Photo person={person} onClick={handleClickPhoto}/>
+            <Photo person={person} onClick={handleClickPhoto} />
           </div>
         ))}
         {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
       </div>
     </div>
 
-    <div className="w-max-[90vw] w-full md:w-8/12">
-      <div className="flex justify-center">
-        {group_2.map((person, index) => (
-          <div key={index} className="flex flex-col m-2 py-10 brightness-90 rounded-md w-38">
-            <Photo person={person} onClick={handleClickPhoto}/>
+      <div className="w-max-[90vw] w-full md:w-8/12 overflow-x-auto">
+      <div className="flex flex-row w-max flex-wrap">
+        {/* Card */}
+        {people.map((person, index) => (
+          <div
+            key={index}
+            className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-56"
+          >
+            <Photo person={person} onClick={handleClickPhoto} />
           </div>
         ))}
         {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
