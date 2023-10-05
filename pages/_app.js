@@ -7,6 +7,8 @@ import '../styles/globals.css'
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
+import DonateButton from "../components/common/DonateButton";
+
 
 function MyApp({ Component, pageProps }) {
 
@@ -29,7 +31,12 @@ function MyApp({ Component, pageProps }) {
     };
   }, []);
 
-  return <Component {...pageProps} />
+  return (
+  <>
+  <DonateButton />
+  <Component {...pageProps} /> 
+  </>
+  );
 }
 
 export default MyApp
