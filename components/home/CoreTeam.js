@@ -116,7 +116,7 @@ export default function CoreTeam() {
         {cofounders.map((person, index) => (
           <div
             key={index}
-            className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-56"
+            className="flex flex-col m-2  py-10 brightness-90 rounded-md w-56"
           >
             <Photo person={person} onClick={handleClickPhoto} />
           </div>
@@ -125,19 +125,16 @@ export default function CoreTeam() {
       </div>
     </div>
 
-      <div className="w-max-[90vw] w-full md:w-8/12 overflow-x-auto">
-      <div className="flex flex-row w-max flex-wrap">
-        {/* Card */}
+      <div className="w-max-[90vw] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-2 flex justify-center">
         {people.map((person, index) => (
           <div
             key={index}
-            className="flex flex-col m-2 p-4 py-10 brightness-90 rounded-md w-56"
+            className="flex flex-col py-10 p-2 brightness-90 rounded-md w-42 sm:w-42 md:w-48 lg:w-56 "
           >
             <Photo person={person} onClick={handleClickPhoto} />
           </div>
         ))}
         {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
-      </div>
     </div>
 
 
