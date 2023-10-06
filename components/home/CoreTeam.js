@@ -129,7 +129,7 @@ export default function CoreTeam() {
         {people.map((person, index) => (
           <div
             key={index}
-            className="flex flex-col py-10 p-2 brightness-90 rounded-md w-42 sm:w-42 md:w-48 lg:w-56 "
+            className="flex flex-col py-10 p-4 sm:p-4 md:p-2 lg:p-2 brightness-90 rounded-md w-42 sm:w-36 md:w-48 lg:w-48 "
           >
             <Photo person={person} onClick={handleClickPhoto} />
           </div>
