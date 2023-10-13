@@ -34,11 +34,11 @@ export default function Footer() {
                 <a href="https://www.instagram.com/sampoorna_life/" target="_blank" rel="noopener noreferrer">
                   <img src="/social-icons/instagram.png" alt="Instagram" className="w-8 h-8" />
                 </a>
-                {/* <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                  <img src="/social-icons//facebook-icon.png" alt="Facebook" className="w-8 h-8" />
-                </a> */}
                 <a href="https://www.youtube.com/@SampoornaLifeFoundation" target="_blank" rel="noopener noreferrer">
                   <img src="/social-icons/youtube.png" alt="YouTube" className="w-8 h-8" />
+                </a>
+                <a href="https://www.facebook.com/p/Sampoorna-life-100083395444144/" target="_blank" rel="noopener noreferrer">
+                  <img src="/social-icons/facebook.png" alt="Facebook" className="w-8 h-8" />
                 </a>
               </div>
             </div>

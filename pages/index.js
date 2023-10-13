@@ -11,6 +11,10 @@ import About from "../components/home/About";
 import Project from "../components/home/Project";
 import { useEffect } from 'react';
 import Link from 'next/link';
+import FAQPage from "../components/home/FAQPage";
+import Collaborations from "../components/home/Collaborations.js";
+import FeaturedIn from "../components/home/FeaturedIn";
+import YouTubeEmbed from "../components/home/YoutubeEmbed";
 
 export default function Home() {
 
@@ -36,7 +40,6 @@ export default function Home() {
           name="description"
           content="Sampoorna foundation provides overall development to underprivileged children through quality teaching and extra- curricular activities"
         />
-        <meta name="copyright" content="VishwaGauravIn" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="teamhnm.org" />
@@ -45,29 +48,29 @@ export default function Home() {
           property="og:description"
           content="Sampoorna foundation provides overall development to underprivileged children through quality teaching and extra- curricular activities"
         />
-        {/* <meta property="og:image" content="https://teamhnm.org/og.png" /> */}
-        {/* <meta property="twitter:card" content="summary_large_image" /> */}
-        {/* <meta property="twitter:url" content="teamhnm.org" /> */}
         <meta property="twitter:title" content="Sampoorna Foundation" />
         <meta
           property="twitter:description"
           content="Sampoorna foundation provides overall development to underprivileged children through quality teaching and extra- curricular activities"
         />
-        <meta property="twitter:image" content="https://teamhnm.org/og.png" />
       </Head>
 
       <main className="">
         <Navbar />
         <Hero />
-        <Carousal />
+        <YouTubeEmbed />
+        {/* <Carousal /> */}
         <Link href="/project">
           <Project />
         </Link>
         <Stats />
         <Donate />
         <CoreTeam />
-        <About />
+        <Collaborations />
+        {/* <FeaturedIn/> */}
         <Testimonials />
+        <About />
+        <FAQPage />
       </main>
 
       <Footer />

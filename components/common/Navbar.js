@@ -8,15 +8,15 @@ export default function Navbar() {
   return (
     <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
-        <ul className="flex items-center hidden space-x-8 lg:flex">
-        <Link
+      <Link
           href="/"
           aria-label="Company"
           title="Company"
-          className="inline-flex items-left"
+          className="flex mt-24 ml-10 w-48 rounded-lg mr-96"
         >
           <Image src="/header_logo.png" height={75} width={75} alt="" />
         </Link>
+        <ul className="flex items-center hidden space-x-8 lg:flex">
         <li>
             <a
               href="#stats"
@@ -37,8 +37,6 @@ export default function Navbar() {
               Projects
             </a>
           </li>
-        {/* </ul> */}
-        {/* <ul class="flex items-center hidden space-x-8 lg:flex"> */}
         <li>
             <a
               href="#team"
@@ -47,6 +45,16 @@ export default function Navbar() {
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Our Team
+            </a>
+          </li>
+          <li>
+            <a
+              href="#collaborations"
+              aria-label="Collaborations"
+              title="Collaborations"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Collaborations
             </a>
           </li>
           <li>
@@ -79,7 +87,7 @@ export default function Navbar() {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+            className="flex p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
             onClick={() => setIsMenuOpen(true)}
           >
             <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -127,46 +135,46 @@ export default function Navbar() {
                 </div>
                 <nav>
                   <ul className="space-y-4">
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Product
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Donate
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Product Our Team"
-                        title="Product Our Team"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Our Team
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Statistics"
-                        title="Statistics"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Statistics
-                      </a>
-                    </li>
+                  <li>
+                    <a
+                      href="#stats"
+                      aria-label="Statistics"
+                      title="Statistics"
+                      className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                    >
+                      Impact
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#project"
+                      aria-label="Project"
+                      title="Project"
+                      className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                    >
+                    Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#team"
+                      aria-label="Our Team"
+                      title="Our Team"
+                      className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                    >
+                    Our Team
+                    </a>
+                  </li>
+                  <li>
+                  <a
+                    href="#collaborations"
+                    aria-label="Collaborations"
+                    title="Collaborations"
+                    className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                  >
+                  Collaborations
+                  </a>
+                  </li>
                     <li>
                       <a
                         href="#"

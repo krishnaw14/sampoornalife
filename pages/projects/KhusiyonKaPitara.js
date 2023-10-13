@@ -20,11 +20,13 @@ export default function Project() {
 
             <p className="lg:w-10/12 text-gray-600 font-normal text-justify text-sm sm:text-lg p-4">
             &quot;Khushiyon Ka Pitara&quot; is our major fundraising carnival which has major attractions such as:
+            <div>
                 <ul className="list-disc p-6">
-                    <li>Cultural program by our talented students representing the cultures of India </li>
-                    <li>Fun fair (games) and Food stalls </li>
-                    <li>Art Exhibit and Sale (Artworks made by our brilliant gifted students)</li>
+                    <li key="1">Cultural program by our talented students representing the cultures of India </li>
+                    <li key="2">Fun fair (games) and Food stalls </li>
+                    <li key="3">Art Exhibit and Sale (Artworks made by our brilliant gifted students)</li>
                 </ul>
+            </div>
                 Donations accepted for the event and for the mission of the foundation as well. 
                 Join our Volunteer team and support our mission
             </p>

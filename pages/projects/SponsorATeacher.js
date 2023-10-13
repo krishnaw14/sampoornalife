@@ -21,10 +21,12 @@ export default function Project() {
             <br />
             By contributing to Sampoorna Welfare Foundation to sponsor a teacher for after-school education, you can help provide these children with the resources they need to succeed. 
             Your support can help fund:
+            <div>
                 <ul className="list-disc p-6">
-                    <li>Tuition fee of the teachers (₹4000/month for a batch of 10 children)</li>
-                    <li>Skill development supplies </li>
+                    <li key="1">Tuition fee of the teachers (₹4000/month for a batch of 10 children)</li>
+                    <li key="2">Skill development supplies </li>
                 </ul>
+            </div>
             Your donation can make a significant impact in the lives of these children by providing them with access to quality education and support. 
             It can help break the cycle of poverty and empower these children to achieve their dreams.
             <br />

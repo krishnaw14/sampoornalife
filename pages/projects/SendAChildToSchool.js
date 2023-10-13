@@ -29,11 +29,13 @@ export default function Project() {
             By contributing to Sampoorna Welfare Foundation, you can help provide these children with access to education and support them in their academic 
             journey. Your support can help:
             <br/>
+            <div>
                 <ul className="list-disc p-6">
-                    <li>Admission and school fee </li>
-                    <li>Uniform and textbooks</li>
-                    <li>Stationary and other supplies </li>
+                    <li key="1">Admission and school fee </li>
+                    <li key="2">Uniform and textbooks</li>
+                    <li key="3">Stationary and other supplies </li>
                 </ul>
+            </div>
             <br/>
                 The costs in this project are variable depending upon the school and class of admission.
             </p>

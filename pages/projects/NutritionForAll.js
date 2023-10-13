@@ -29,12 +29,14 @@ export default function Project() {
             <br />
             Your kind contribution will go towards making healthier lives of many through:
 
+            <div>
                 <ul className="list-disc p-6">
-                    <li>Medical camps and required tests </li>
-                    <li>Medicines and follow-ups </li>
-                    <li>Nutritional supplements</li>
-                    <li>Workshops on mental health, sanitation, etc</li>
+                    <li key="1">Medical camps and required tests </li>
+                    <li key="2">Medicines and follow-ups </li>
+                    <li key="3">Nutritional supplements</li>
+                    <li key="4">Workshops on mental health, sanitation, etc</li>
                 </ul>
+            </div>
             </p>
             <br /> 
         </div>

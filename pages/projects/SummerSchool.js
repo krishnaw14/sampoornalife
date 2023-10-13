@@ -20,13 +20,15 @@ export default function Project() {
             <p className="lg:w-10/12 text-gray-600 font-normal text-justify text-sm sm:text-lg p-4">
             In 2023, we unveiled the first ever summer camp Sampoorna hosted. This summer school was dedicated towards creative breakthroughs and a break from all the textbook learning.
                 The summer school was home to classes and workshops like : 
+            <div>
             <ul className="list-disc p-6">
-                <li>Origami</li>
-                <li>Fireless cooking</li>
-                <li>Vedic Chanting</li>
-                <li>Communications</li>
-                <li>Mandala art and many more.</li>
+                <li key="1">Origami</li>
+                <li key="2">Fireless cooking</li>
+                <li key="3">Vedic Chanting</li>
+                <li key="4">Communications</li>
+                <li key="5">Mandala art and many more.</li>
             </ul>
+            </div>
             We are creating a space for such creative for such creative brainstorming every Saturday. You can come be a part of it as a teacher or a volunteer. 
             </p>
         </div>

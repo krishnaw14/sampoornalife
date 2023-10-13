@@ -39,6 +39,18 @@ export default function CoreTeam() {
       desc: "Meet Apoorva, a believer in learning, unlearning and relearning. A teacher of Social science by profession in DPS Raipur, she loves the magic of books, music, food and nature. With her intellect and command in language Apoorva teaches our kids the ultimate language skills."
     },
     {
+      avatar: "/team/bhakti.jpg",
+      name: "Bhakti Gajjar",
+      position: "",
+      desc: "With an artistic soul and a keen eye for design, Bhakti from team Social Momo brings life to Sampoorna NGO's mission through captivating graphics and visuals. Her creative touch transforms ideas into visually stunning realities, making every creative a work of art."
+    },
+    {
+      avatar: "/team/gazal.jpg",
+      name: "Gazal Chauhan",
+      position: "",
+      desc: "Gazal from Social Momo is the digital architect behind Sampoorna NGO's impactful outreach and strategic initiatives. With a blend of innovation and strategy, she drives the organization's online presence, ensuring its message reaches far and wide, touching hearts and inspiring change."
+    },
+    {
       avatar: "/team/krishna.png",
       name: "Krishna Wadhwani",
       position: "",
@@ -93,7 +105,7 @@ export default function CoreTeam() {
     setSelectedPerson(person);
   };
   return (
-    <div className="flex flex-col w-full items-center my-10 md:my-14 " id="team">
+    <div className="flex flex-col w-full items-center my-10 md:my-14" id="team">
       <p className="text-4xl font-bold">Core Team</p>
       {/* <div className="w-max-[90vw] w-full md:w-8/12">
         <div className="flex justify-center">
@@ -125,7 +137,7 @@ export default function CoreTeam() {
       </div>
     </div>
 
-      <div className="w-max-[90vw] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-2 flex justify-center">
+      <div className="w-max-[90vw] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 flex justify-center">
         {people.map((person, index) => (
           <div
             key={index}

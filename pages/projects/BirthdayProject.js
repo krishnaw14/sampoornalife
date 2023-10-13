@@ -24,13 +24,15 @@ export default function Project() {
                 children through our Birthday project.
 
                 Our Birthday parties involve celebratory environments with:
+                <div>
                     <ul className="list-disc p-6">
-                        <li>Birthday cakes and treats </li>
-                        <li>Gifts and learning activities </li>
-                        <li>Decorations and snacks </li>
-                        <li>Theme-based learning sessions and crafts </li>
-                        <li>Amazing people, guests and volunteers! </li>
+                        <li key="1">Birthday cakes and treats </li>
+                        <li key="2">Gifts and learning activities </li>
+                        <li key="3">Decorations and snacks </li>
+                        <li key="4">Theme-based learning sessions and crafts </li>
+                        <li key="5">Amazing people, guests and volunteers! </li>
                     </ul>
+                </div>
                     Bring your enthusiasm and come party with us by serving/volunteering at a birthday event. If you&apos;d like to become a Birthday Angel 
                     and champion the cause of bringing the joy of heaven to kids facing hardhip, we would love to hear from you!
 
