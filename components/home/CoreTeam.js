@@ -24,7 +24,7 @@ export default function CoreTeam() {
       avatar: "/team/aishwarya.png",
       name: "Aishwarya Bothra",
       position: "",
-      desc: "Meet Aishwarya, an enthusiast techie with right skills and intuitive knowledge. She’s an MBA in retail management and previously worked with “MAKE A DIFFERENCE” for 1.5 years. Her wonderful place to be is in between the pages of a book. Her love for music, exceptional attention to details, makes her multi task with Sampoorna. With her oomph and zeal of writing Ashwariya is the Technocrat of Sampoorna."
+      desc: "Meet Aishwarya, an enthusiast techie with right skills and intuitive knowledge. She’s an MBA in retail management and previously worked with “MAKE A DIFFERENCE” for 1.5 years. Her wonderful place to be is in between the pages of a book. Her love for music, exceptional attention to details, makes her multi task with Sampoorna. With her oomph and zeal of writing, Aishwarya is the Technocrat of Sampoorna."
     },
     {
       avatar: "/team/anmol.png",
