@@ -8,13 +8,13 @@ export default function CoreTeam() {
     {
       avatar: "/team/neha.jpg",
       name: "Neha Shrishrimal",
-      position: "Co-Founder",
+      position: "",
       desc: "Neha is a dynamic woman who has worn many hats in various fields, Neha is confident go - getter who believes “Things which bring sparkle to your eyes is what your heart truly desires. That is your calling in life”. Neha has always had an instant connection with children and teenagers and through this foundation, She has pledged to support their dreams.",
     },
     {
       avatar: "/team/hemangi.jpg",
       name: "Dr. Hemangi",
-      position: "Co-Founder",
+      position: "",
       desc: "A dermatologist by profession, Hemangi can do it all! She is a dedicated, responsible and optimist who believes, “We need to be the change that we want to see in the world”. With her love for children, She has played a pivotal role in shaping the idea of Sampoorna and bringing it to life."
     },
   ];
@@ -39,6 +39,12 @@ export default function CoreTeam() {
       desc: "Meet Apoorva, a believer in learning, unlearning and relearning. A teacher of Social science by profession in DPS Raipur, she loves the magic of books, music, food and nature. With her intellect and command in language Apoorva teaches our kids the ultimate language skills."
     },
     {
+      avatar: "/team/shweta.png",
+      name: "Sweta Padia",
+      position: "",
+      desc: "Meet Sweta, a strong believer in exchanging positive energy. A happy homemaker and a mother of 2 young and intelligent boys makes her celebrate every blessing. Being passionate for art and craft, Sweta handles the creative responsibilities of Sampoorna."
+    },
+    {
       avatar: "/team/bhakti.jpg",
       name: "Bhakti Gajjar",
       position: "",
@@ -49,12 +55,6 @@ export default function CoreTeam() {
       name: "Gazal Chauhan",
       position: "",
       desc: "Gazal from Social Momo is the digital architect behind Sampoorna NGO's impactful outreach and strategic initiatives. With a blend of innovation and strategy, she drives the organization's online presence, ensuring its message reaches far and wide, touching hearts and inspiring change."
-    },
-    {
-      avatar: "/team/krishna.png",
-      name: "Krishna Wadhwani",
-      position: "",
-      desc: "Meet Krishna, a bright scholar, graduated from IIT Bombay with a B.Tech in Aerospace Engineering. He has worked as a research engineer at Sony for 2 years and is currently managing and bringing laurels to his family business. With his conversant and dedicated outlook , hard skill aptitude and expertise Krishna is the Technocrat of Sampoorna."
     },
     {
       avatar: "/team/mehak.png",
@@ -93,10 +93,10 @@ export default function CoreTeam() {
       desc: "Meet Sarita, a captivating woman who effortlessly juggles the roles of both a skilled artist and a dedicated home maker. Sarita’s unwavering dedication to both her family and her artistic pursuits. With her passion and resourcefulness, Sarita is the creative member of Sampoorna."
     },
     {
-      avatar: "/team/shweta.png",
-      name: "Sweta Padia",
+      avatar: "/team/krishna.png",
+      name: "Krishna Wadhwani",
       position: "",
-      desc: "Meet Sweta, a strong believer in exchanging positive energy. A happy homemaker and a mother of 2 young and intelligent boys makes her celebrate every blessing. Being passionate for art and craft, Sweta handles the creative responsibilities of Sampoorna."
+      desc: "Meet Krishna, a bright scholar, graduated from IIT Bombay with a B.Tech in Aerospace Engineering. He has worked as a research engineer at Sony for 2 years and is currently managing and bringing laurels to his family business. With his conversant and dedicated outlook , hard skill aptitude and expertise Krishna is the Technocrat of Sampoorna."
     },
   ];
   const [selectedPerson, setSelectedPerson] = useState(null);
@@ -106,7 +106,7 @@ export default function CoreTeam() {
   };
   return (
     <div className="flex flex-col w-full items-center my-10 md:my-14" id="team">
-      <p className="text-4xl font-bold">Core Team</p>
+      <p className="text-4xl font-bold">Founders</p>
       {/* <div className="w-max-[90vw] w-full md:w-8/12">
         <div className="flex justify-center">
           {/* Card 
@@ -136,6 +136,7 @@ export default function CoreTeam() {
         {selectedPerson && <Popup person={selectedPerson} onClose={() => setSelectedPerson(null)} />}
       </div>
     </div>
+    <p className="text-4xl font-bold py-10">Our Team</p>
 
       <div className="w-max-[90vw] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 flex justify-center">
         {people.map((person, index) => (

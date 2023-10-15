@@ -4,12 +4,12 @@ import Card from '../common/Card';
 export default function Project() {
   return (
     <div
-      className="container mx-auto flex flex-col py-12 px-2 w-11/12 sm:w-2/3"
+      className="container mx-auto flex flex-col py-4 px-2 w-11/12 sm:w-2/3"
       id="project"
     >
       <p className="text-center text-4xl font-bold">Our Projects</p>
-      <p className="text-gray-500 text-justify text-xl text-center my-4">
-      We have various ongoing long-term projects through which we aim to achieve holistic development of many children. You can help us accomplish these projects by making kind contributions.      <br />
+      <p className="text-center my-4 text-gray-600 font-normal text-justify text-sm sm:text-lg">
+      We have various ongoing long-term projects through which we aim to achieve holistic development of many children. You can help us accomplish these projects by making kind contributions.
       </p>
       <br />
       <br />

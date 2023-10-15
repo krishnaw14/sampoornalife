@@ -13,8 +13,9 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import FAQPage from "../components/home/FAQPage";
 import Collaborations from "../components/home/Collaborations.js";
-import FeaturedIn from "../components/home/FeaturedIn";
+// import FeaturedIn from "../components/home/FeaturedIn";
 import YouTubeEmbed from "../components/home/YoutubeEmbed";
+// import FeedbackForm from "../components/home/FeedbackForm";
 
 export default function Home() {
 
@@ -71,6 +72,9 @@ export default function Home() {
         <Testimonials />
         <About />
         <FAQPage />
+
+        {/* <FeedbackForm /> */}
+
       </main>
 
       <Footer />
