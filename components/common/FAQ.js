@@ -23,7 +23,7 @@ function FAQ({ items }) {
               {item.question}
             </button>
             {activeIndex === index && (
-              <div className="container mx-auto flex flex-col px-2 w-11/12 sm:w-2/3 p-3 rounded-lg text-gray-800 text-justify">
+              <div className="container mx-auto flex flex-col px-2 p-3 rounded-lg text-gray-800 text-justify">
                 {item.answer}
               </div>
             )}

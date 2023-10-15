@@ -54,8 +54,8 @@ export default function Collaborations() {
   ];
 
   return (
-    <div className="flex flex-col w-full items-center my-10 md:my-14 py-12" id="collaborations">
-      <p className="text-4xl font-bold">Collaborations</p>
+    <div className="flex flex-col w-full items-center my-10 md:my-14" id="collaborations">
+      <p className="text-4xl font-bold py-12">Collaborations</p>
 
       <div className="w-max-[90vw] grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 flex justify-center">
         {partners.map((partner, index) => (
