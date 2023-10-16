@@ -69,6 +69,32 @@ export default function Navbar() {
           </li>
           <li>
             <a
+              href="#faq"
+              aria-label="FAQ"
+              title="FAQ"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              FAQ
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__U1niv9UOVBHNElSRDlKU0M5UkM4TUNXTVFVNEVDRS4u"
+              aria-label="Volunteer"
+              title="Volunteer"
+              rel="noopener noreferrer"
+              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+            <button
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 flex flex-row items-center mx-auto justify-center"
+            >
+            Join us
+            </button>
+              
+            </a>
+          </li>
+          <li>
+            <a
               href="#donate"
               aria-label="Donate"
               title="Donate"
@@ -183,6 +209,32 @@ export default function Navbar() {
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About Us
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#faq"
+                        aria-label="FAQ"
+                        title="FAQ"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        FAQ
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__U1niv9UOVBHNElSRDlKU0M5UkM4TUNXTVFVNEVDRS4u"
+                        aria-label="Volunteer"
+                        title="Volunteer"
+                        rel="noopener noreferrer"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                      <button
+                      className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 flex flex-row items-center mx-auto justify-center"
+                      >
+                      Join us
+                      </button>
+                        
                       </a>
                     </li>
                   </ul>

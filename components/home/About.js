@@ -31,7 +31,8 @@ export default function About() {
         </div>
 
         <p className="mt-5 sm:mt-10 text-gray-600 font-normal text-justify text-sm sm:text-lg">
-        The Sampoorna&apos;s promising family is blossoming day by day by adding new students under its umbrella. Our goal not only narrows to teaching after school but also pursuits of “Send a Child to School” Programme. 
+        Sampoorna&apos;s promising family is blossoming day by day by adding new students under its umbrella. Our goal not only narrows to teaching after school but also pursuits of “Send a Child to School” Programme, 
+        through which we have sent 12 children to school till date. 
         Over the year we have gained the confidence of students along with the trust of their parents or guardians whom we assured that their children are in right and capable hands for a bright future ahead. 
         <br />
         The team of Sampoorna is always primed with exclusive ideas and suggestions that fit well for the betterment of our students at large.
@@ -43,8 +44,9 @@ export default function About() {
       </div>
         <div className="container mx-auto flex flex-col px-2 sm:w-1/2 w-10/12 sm:w-8/12 md:w-5/12 lg:w-1/4 text-center item-center">
         <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__U1niv9UOVBHNElSRDlKU0M5UkM4TUNXTVFVNEVDRS4u"
-        className="bg-blue-500 p-3 text-white font-semibold rounded-full hover:shadow-blue-500/30 hover:scale-[1.02] transition-all ease-in-out duration-100 sm:scale-10"
+        className="bg-blue-500 p-3 text-white font-semibold rounded hover:shadow-blue-500/30 hover:scale-[1.02] transition-all ease-in-out duration-100 sm:scale-10"
         rel="noopener noreferrer"
+        id="volunteer"
         >
         Volunteer with us.
         </a>

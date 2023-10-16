@@ -41,7 +41,7 @@ const faqItems = [
 
 function FAQPage() {
   return (
-  <div className="container mx-auto flex flex-col px-2 w-11/12 sm:w-2/3 py-12">
+  <div className="container mx-auto flex flex-col px-2 w-11/12 sm:w-2/3 py-12" id="faq">
       <h1 className="text-4xl font-bold text-center py-12">Frequently Asked Questions</h1>
       <FAQ items={faqItems} />
     </div>
